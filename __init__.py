@@ -1,7 +1,14 @@
-"""
-cppfileswitch --- Switch C/C++ between header and implementation files
-======================================================================
-"""
+"""Switch between C/C++ header and source file in Mamba text editor."""
+__pluginname__ = "C/C++ File Switch"
+__author__ = "Marco Laspe"
+__credits__ = ["Andrei Kopats", "Bryan A. Jones"]
+__license__ = "GPL3"
+__version__ = "0.1.0"
+__maintainer__ = "Marco Laspe"
+__email__ = "marco@rockiger.com"
+__status__ = "Beta"
+# This plugin is a copy of the Enki repl plugin
+# https://github.com/andreikop/enki/tree/master/enki/plugins/cppfileswitch.py
 
 import os.path
 
